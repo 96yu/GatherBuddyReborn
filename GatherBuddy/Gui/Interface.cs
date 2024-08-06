@@ -32,6 +32,7 @@ public partial class Interface : Window, IDisposable
         _plugin            = plugin;
         _gatherGroupCache  = new GatherGroupCache(_plugin.GatherGroupManager);
         _gatherWindowCache = new GatherWindowCache();
+        _perItemCache      = new GatherWindowPerItemCache();
         _locationTable     = new LocationTable();
         _alarmCache        = new AlarmCache(_plugin.AlarmManager);
         _recordTable       = new RecordTable();

@@ -1535,5 +1535,10 @@ public partial class Interface
 
             ImGui.NewLine();
         }
+
+        if (ImGui.CollapsingHeader("Per item configuration"))
+        {
+            DrawManualPerItemConfiguration();
+        }
     }
 }
