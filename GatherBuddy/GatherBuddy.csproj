@@ -4,7 +4,7 @@
     <LangVersion>preview</LangVersion>
     <PlatformTarget>x64</PlatformTarget>
 		<RootNamespace>GatherBuddy</RootNamespace>
-		<AssemblyName>GatherBuddyReborn</AssemblyName>
+		<AssemblyName>GatherBuddyRebornIsaac</AssemblyName>
 		<Version>7.0.2.0</Version>
 		<Company>SoftOtter</Company>
     <Product>GatherBuddy</Product>
